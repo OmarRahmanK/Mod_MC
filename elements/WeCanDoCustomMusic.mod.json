@@ -1,0 +1,17 @@
+{
+  "_fv": 25,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "musicitem",
+    "name": "We Can Do Custom Music",
+    "description": "Crossing Field??",
+    "creativeTab": {
+      "value": "CUSTOM:SwordArt"
+    },
+    "music": {
+      "value": "ambient.cave"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
