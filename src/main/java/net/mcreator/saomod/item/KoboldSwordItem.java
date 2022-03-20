@@ -1,14 +1,7 @@
 
 package net.mcreator.saomod.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-
-import net.mcreator.saomod.init.SaoModModTabs;
-import net.mcreator.saomod.init.SaoModModItems;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class KoboldSwordItem extends SwordItem {
 	public KoboldSwordItem() {
@@ -36,6 +29,11 @@ public class KoboldSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(SaoModModItems.KOBOLD_INGOT.get()));
 			}
-		}, 3, -3f, new Item.Properties().tab(SaoModModTabs.TAB_SWORD_ART));
+		},
+
+				3, -3f,
+
+				new Item.Properties().tab(SaoModModTabs.TAB_SWORD_ART));
 	}
+
 }

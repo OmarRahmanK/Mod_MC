@@ -407,6 +407,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "kobold_shovel_recipe"
+    },
+    {
+      "name": "SwordArtInventory",
+      "type": "gui",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_art_inventory"
     }
   ],
   "variable_elements": [],
