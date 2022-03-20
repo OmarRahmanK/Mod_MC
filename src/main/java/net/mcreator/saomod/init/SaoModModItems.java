@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.saomod.item.WindFleuretItem;
 import net.mcreator.saomod.item.TyrantDragonItem;
 import net.mcreator.saomod.item.PlatinumIngotItem;
+import net.mcreator.saomod.item.MateChopperItem;
 import net.mcreator.saomod.item.LambentLightItem;
 import net.mcreator.saomod.item.KoboldIngotItem;
 import net.mcreator.saomod.item.GuiltyThornItem;
@@ -41,6 +42,7 @@ public class SaoModModItems {
 	public static final RegistryObject<Item> WIND_FLEURET = REGISTRY.register("wind_fleuret", () -> new WindFleuretItem());
 	public static final RegistryObject<Item> TYRANT_DRAGON = REGISTRY.register("tyrant_dragon", () -> new TyrantDragonItem());
 	public static final RegistryObject<Item> GUILTY_THORN = REGISTRY.register("guilty_thorn", () -> new GuiltyThornItem());
+	public static final RegistryObject<Item> MATE_CHOPPER = REGISTRY.register("mate_chopper", () -> new MateChopperItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

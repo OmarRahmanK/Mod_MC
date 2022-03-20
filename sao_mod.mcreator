@@ -223,18 +223,27 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "guilty_thorn"
+    },
+    {
+      "name": "MateChopper",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mate_chopper"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.sao_mod.tyrant_dragon": "Tyrant Dragon",
-      "item.sao_mod.kobold_ingot": "Kobold",
       "block.sao_mod.kobold_ore": "Kobold Ore",
+      "item.sao_mod.kobold_ingot": "Kobold",
+      "item.sao_mod.tyrant_dragon": "Tyrant Dragon",
       "block.sao_mod.crystallite_block": "Block of Crystallite",
       "item.sao_mod.elucidator": "Elucidator",
       "item.sao_mod.lambent_light": "Lambent Light",
+      "item.sao_mod.mate_chopper": "Mate Chopper",
       "item.sao_mod.guilty_thorn": "Guilty Thorn",
       "item.sao_mod.dark_repulser": "Dark Repulser",
       "block.sao_mod.platinum_block": "Block of Platinum",
