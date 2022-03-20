@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1.2599999999999998,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "sao_mod:kobold_ore"
+  },
+  "result": "sao_mod:kobold_ingot"
+}

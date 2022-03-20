@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 2.24,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "sao_mod:crystallite_ore"
+  },
+  "result": "sao_mod:crystallite"
+}

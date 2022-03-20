@@ -4,7 +4,7 @@
   "definition": {
     "name": "Sword Art",
     "icon": {
-      "value": "Items.DIAMOND_SWORD"
+      "value": "CUSTOM:Elucidator"
     },
     "showSearch": false
   }

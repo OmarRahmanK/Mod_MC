@@ -27,7 +27,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.saomod.init.SaoModModTabs;
-import net.mcreator.saomod.init.SaoModModItems;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -45,8 +44,6 @@ public class SaoModMod {
 	public SaoModMod() {
 		SaoModModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
-		SaoModModItems.REGISTRY.register(bus);
 
 	}
 

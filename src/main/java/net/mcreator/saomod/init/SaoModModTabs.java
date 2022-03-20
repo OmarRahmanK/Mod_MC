@@ -7,7 +7,6 @@ package net.mcreator.saomod.init;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 
@@ -18,7 +17,7 @@ public class SaoModModTabs {
 		TAB_SWORD_ART = new CreativeModeTab("tabsword_art") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(Items.DIAMOND_SWORD);
+				return new ItemStack(SaoModModItems.DELETED_MOD_ELEMENT.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)
