@@ -29,11 +29,6 @@ import net.mcreator.saomod.item.KarakurenaiItem;
 import net.mcreator.saomod.item.GuiltyThornItem;
 import net.mcreator.saomod.item.ElucidatorItem;
 import net.mcreator.saomod.item.DarkRepulserItem;
-import net.mcreator.saomod.item.CrystalliteShovelItem;
-import net.mcreator.saomod.item.CrystallitePickaxeItem;
-import net.mcreator.saomod.item.CrystalliteItem;
-import net.mcreator.saomod.item.CrystalliteHoeItem;
-import net.mcreator.saomod.item.CrystalliteAxeItem;
 import net.mcreator.saomod.item.AnnealBladeItem;
 import net.mcreator.saomod.SaoModMod;
 
@@ -45,9 +40,6 @@ public class SaoModModItems {
 	public static final RegistryObject<Item> KOBOLD_INGOT = REGISTRY.register("kobold_ingot", () -> new KoboldIngotItem());
 	public static final RegistryObject<Item> KOBOLD_ORE = block(SaoModModBlocks.KOBOLD_ORE, SaoModModTabs.TAB_SWORD_ART);
 	public static final RegistryObject<Item> KOBOLD_BLOCK = block(SaoModModBlocks.KOBOLD_BLOCK, SaoModModTabs.TAB_SWORD_ART);
-	public static final RegistryObject<Item> CRYSTALLITE = REGISTRY.register("crystallite", () -> new CrystalliteItem());
-	public static final RegistryObject<Item> CRYSTALLITE_ORE = block(SaoModModBlocks.CRYSTALLITE_ORE, SaoModModTabs.TAB_SWORD_ART);
-	public static final RegistryObject<Item> CRYSTALLITE_BLOCK = block(SaoModModBlocks.CRYSTALLITE_BLOCK, SaoModModTabs.TAB_SWORD_ART);
 	public static final RegistryObject<Item> PLATINUM_INGOT = REGISTRY.register("platinum_ingot", () -> new PlatinumIngotItem());
 	public static final RegistryObject<Item> PLATINUM_ORE = block(SaoModModBlocks.PLATINUM_ORE, SaoModModTabs.TAB_SWORD_ART);
 	public static final RegistryObject<Item> PLATINUM_BLOCK = block(SaoModModBlocks.PLATINUM_BLOCK, SaoModModTabs.TAB_SWORD_ART);
@@ -63,10 +55,6 @@ public class SaoModModItems {
 	public static final RegistryObject<Item> KOBOLD_SWORD = REGISTRY.register("kobold_sword", () -> new KoboldSwordItem());
 	public static final RegistryObject<Item> KOBOLD_SHOVEL = REGISTRY.register("kobold_shovel", () -> new KoboldShovelItem());
 	public static final RegistryObject<Item> KOBOLD_HOE = REGISTRY.register("kobold_hoe", () -> new KoboldHoeItem());
-	public static final RegistryObject<Item> CRYSTALLITE_PICKAXE = REGISTRY.register("crystallite_pickaxe", () -> new CrystallitePickaxeItem());
-	public static final RegistryObject<Item> CRYSTALLITE_AXE = REGISTRY.register("crystallite_axe", () -> new CrystalliteAxeItem());
-	public static final RegistryObject<Item> CRYSTALLITE_SHOVEL = REGISTRY.register("crystallite_shovel", () -> new CrystalliteShovelItem());
-	public static final RegistryObject<Item> CRYSTALLITE_HOE = REGISTRY.register("crystallite_hoe", () -> new CrystalliteHoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

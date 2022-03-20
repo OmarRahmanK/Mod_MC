@@ -19,7 +19,6 @@ import net.minecraft.core.Holder;
 
 import net.mcreator.saomod.world.features.ores.PlatinumOreFeature;
 import net.mcreator.saomod.world.features.ores.KoboldOreFeature;
-import net.mcreator.saomod.world.features.ores.CrystalliteOreFeature;
 import net.mcreator.saomod.SaoModMod;
 
 import java.util.function.Supplier;
@@ -33,9 +32,6 @@ public class SaoModModFeatures {
 	private static final List<FeatureRegistration> FEATURE_REGISTRATIONS = new ArrayList<>();
 	public static final RegistryObject<Feature<?>> KOBOLD_ORE = register("kobold_ore", KoboldOreFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, KoboldOreFeature.GENERATE_BIOMES, KoboldOreFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> CRYSTALLITE_ORE = register("crystallite_ore", CrystalliteOreFeature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, CrystalliteOreFeature.GENERATE_BIOMES,
-					CrystalliteOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> PLATINUM_ORE = register("platinum_ore", PlatinumOreFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, PlatinumOreFeature.GENERATE_BIOMES, PlatinumOreFeature::placedFeature));
 

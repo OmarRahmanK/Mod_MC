@@ -81,54 +81,6 @@
       "registry_name": "kobold_ore_smelting"
     },
     {
-      "name": "Crystallite",
-      "type": "item",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystallite"
-    },
-    {
-      "name": "CrystalliteOre",
-      "type": "block",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystallite_ore"
-    },
-    {
-      "name": "CrystalliteBlock",
-      "type": "block",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystallite_block"
-    },
-    {
-      "name": "CrystalliteOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystallite_ore_block_recipe"
-    },
-    {
-      "name": "CrystalliteBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystallite_block_ore_recipe"
-    },
-    {
-      "name": "CrystalliteOreSmelting",
-      "type": "recipe",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystallite_ore_smelting"
-    },
-    {
       "name": "PlatinumIngot",
       "type": "item",
       "sortid": 17,
@@ -183,14 +135,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "kobold_ore_blast_smelting"
-    },
-    {
-      "name": "CrystalliteOreBlastSmelting",
-      "type": "recipe",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystallite_ore_blast_smelting"
     },
     {
       "name": "PlatinumOreBlastSmelting",
@@ -249,44 +193,12 @@
       "registry_name": "kobold_pickaxe_recipe"
     },
     {
-      "name": "CrystalliteAxe",
-      "type": "tool",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystallite_axe"
-    },
-    {
-      "name": "CrystalliteShovel",
-      "type": "tool",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystallite_shovel"
-    },
-    {
-      "name": "CrystalliteHoeRecipe",
-      "type": "recipe",
-      "sortid": 49,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystallite_hoe_recipe"
-    },
-    {
       "name": "KoboldPickaxe",
       "type": "tool",
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kobold_pickaxe"
-    },
-    {
-      "name": "CrystallitePickaxeRecipe",
-      "type": "recipe",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystallite_pickaxe_recipe"
     },
     {
       "name": "KoboldSword",
@@ -329,22 +241,6 @@
       "registry_name": "guilty_thorn"
     },
     {
-      "name": "CrystallitePickaxe",
-      "type": "tool",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystallite_pickaxe"
-    },
-    {
-      "name": "CrystalliteAxeRecipe",
-      "type": "recipe",
-      "sortid": 46,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystallite_axe_recipe"
-    },
-    {
       "name": "KoboldSwordRecipe",
       "type": "recipe",
       "sortid": 37,
@@ -361,36 +257,12 @@
       "registry_name": "kobold_shovel"
     },
     {
-      "name": "CrystalliteHoe",
-      "type": "tool",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystallite_hoe"
-    },
-    {
       "name": "MateChopper",
       "type": "tool",
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mate_chopper"
-    },
-    {
-      "name": "CrystalliteShovelRecipe",
-      "type": "recipe",
-      "sortid": 48,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystallite_shovel_recipe"
-    },
-    {
-      "name": "CrystalliteSwordRecipe",
-      "type": "recipe",
-      "sortid": 47,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystallite_sword_recipe"
     },
     {
       "name": "KoboldAxe",
@@ -422,11 +294,9 @@
   "language_map": {
     "en_us": {
       "item.sao_mod.kobold_shovel": "Kobold Shovel",
-      "block.sao_mod.kobold_ore": "Kobold Ore",
       "item.sao_mod.kobold_ingot": "Kobold",
-      "item.sao_mod.crystallite_shovel": "Crystallite Shovel",
+      "block.sao_mod.kobold_ore": "Kobold Ore",
       "item.sao_mod.kobold_axe": "Kobold Axe",
-      "item.sao_mod.crystallite_axe": "Crystallite Axe",
       "item.sao_mod.kobold_pickaxe": "Kobold Pickaxe",
       "item.sao_mod.lambent_light": "Lambent Light",
       "item.sao_mod.mate_chopper": "Mate Chopper",
@@ -436,7 +306,6 @@
       "block.sao_mod.kobold_block": "Block of Kobold",
       "item.sao_mod.tyrant_dragon": "Tyrant Dragon",
       "item.sao_mod.karakurenai": "Karakurenai",
-      "block.sao_mod.crystallite_block": "Block of Crystallite",
       "item.sao_mod.liberator_sword": "Liberator Sword",
       "item.sao_mod.anneal_blade": "Anneal Blade",
       "item.sao_mod.elucidator": "Elucidator",
@@ -444,13 +313,9 @@
       "item.sao_mod.dark_repulser": "Dark Repulser",
       "block.sao_mod.platinum_block": "Block of Platinum",
       "item.sao_mod.crystallite_ingot": "Crystallite",
-      "block.sao_mod.crystallite_ore": "Crystallite Ore",
       "block.sao_mod.platinum_ore": "Platinum Ore",
-      "item.sao_mod.crystallite_pickaxe": "Crystallite Pickaxe",
-      "item.sao_mod.crystallite_hoe": "Crystallite Hoe",
       "item.sao_mod.wind_fleuret": "Wind Fleuret",
-      "item.sao_mod.platinum_ingot": "Platinum",
-      "item.sao_mod.crystallite": "Crystallite"
+      "item.sao_mod.platinum_ingot": "Platinum"
     }
   },
   "foldersRoot": {
