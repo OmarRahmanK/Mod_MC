@@ -40,9 +40,9 @@ public class PlatinumOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new PlatinumOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("sao_mod:platinum_ore", FEATURE,
-				new OreConfiguration(PlatinumOreFeatureRuleTest.INSTANCE, SaoModModBlocks.PLATINUM_ORE.get().defaultBlockState(), 2));
+				new OreConfiguration(PlatinumOreFeatureRuleTest.INSTANCE, SaoModModBlocks.PLATINUM_ORE.get().defaultBlockState(), 3));
 		PLACED_FEATURE = PlacementUtils.register("sao_mod:platinum_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(4), HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(23))));
+				List.of(CountPlacement.of(4), HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(27))));
 		return FEATURE;
 	}
 

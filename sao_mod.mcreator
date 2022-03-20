@@ -44,7 +44,7 @@
       "name": "KoboldOre",
       "type": "block",
       "sortid": 6,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "kobold_ore"
     },
@@ -92,7 +92,7 @@
       "name": "CrystalliteOre",
       "type": "block",
       "sortid": 12,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "crystallite_ore"
     },
@@ -140,7 +140,7 @@
       "name": "PlatinumOre",
       "type": "block",
       "sortid": 18,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "platinum_ore"
     },
@@ -175,14 +175,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "platinum_ore_smelting"
-    },
-    {
-      "name": "SwordInventory",
-      "type": "gui",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sword_inventory"
     }
   ],
   "variable_elements": [],

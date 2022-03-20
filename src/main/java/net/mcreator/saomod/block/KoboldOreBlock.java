@@ -20,7 +20,8 @@ import java.util.Collections;
 
 public class KoboldOreBlock extends Block {
 	public KoboldOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(7.5f, 10.406915092523414f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5.3999999999999995f, 8.0018058251898f)
+				.requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -31,7 +32,7 @@ public class KoboldOreBlock extends Block {
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
 		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 5;
+			return tieredItem.getTier().getLevel() >= 4;
 		return false;
 	}
 

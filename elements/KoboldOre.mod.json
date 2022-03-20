@@ -34,8 +34,8 @@
     ],
     "name": "Kobold Ore",
     "specialInfo": [],
-    "hardness": 7.5,
-    "resistance": 10.406915092523414,
+    "hardness": 5.3999999999999995,
+    "resistance": 8.0018058251898,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 5,
+    "breakHarvestLevel": 4,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -130,9 +130,9 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 4,
-    "frequencyOnChunk": 3,
+    "frequencyPerChunks": 6,
+    "frequencyOnChunk": 4,
     "minGenerateHeight": 1,
-    "maxGenerateHeight": 27
+    "maxGenerateHeight": 37
   }
 }

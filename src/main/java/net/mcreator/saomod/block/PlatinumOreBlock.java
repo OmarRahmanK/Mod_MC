@@ -20,7 +20,7 @@ import java.util.Collections;
 
 public class PlatinumOreBlock extends Block {
 	public PlatinumOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(9f, 12.041123426403463f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(7.5f, 10.406915092523414f).requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -31,7 +31,7 @@ public class PlatinumOreBlock extends Block {
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
 		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 6;
+			return tieredItem.getTier().getLevel() >= 5;
 		return false;
 	}
 

@@ -34,8 +34,8 @@
     ],
     "name": "Platinum Ore",
     "specialInfo": [],
-    "hardness": 9.0,
-    "resistance": 12.041123426403463,
+    "hardness": 7.5,
+    "resistance": 10.406915092523414,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 6,
+    "breakHarvestLevel": 5,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -131,8 +131,8 @@
       }
     ],
     "frequencyPerChunks": 4,
-    "frequencyOnChunk": 2,
+    "frequencyOnChunk": 3,
     "minGenerateHeight": 1,
-    "maxGenerateHeight": 23
+    "maxGenerateHeight": 27
   }
 }
