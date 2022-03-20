@@ -28,6 +28,8 @@ import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 
+import net.mcreator.saomod.init.SaoModModBlocks;
+
 import java.util.Set;
 import java.util.Random;
 import java.util.List;
@@ -42,7 +44,7 @@ public class CrystalliteOreFeature extends OreFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("sao_mod:crystallite_ore", FEATURE,
 				new OreConfiguration(CrystalliteOreFeatureRuleTest.INSTANCE, SaoModModBlocks.CRYSTALLITE_ORE.get().defaultBlockState(), 2));
 		PLACED_FEATURE = PlacementUtils.register("sao_mod:crystallite_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(3), HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(22))));
+				List.of(CountPlacement.of(3), HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(10))));
 		return FEATURE;
 	}
 
@@ -50,7 +52,7 @@ public class CrystalliteOreFeature extends OreFeature {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("windswept_hills"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 
 	public CrystalliteOreFeature() {
