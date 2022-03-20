@@ -8,10 +8,7 @@ version="1.0.0"
 displayName="SAO Mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="OmarRahmanK, ninichyu, MCreator"
-description='''
-A mod that adds SAO items and skills to minecraft.
-'''
+authors="spide, MCreator"
 
 [[dependencies.sao_mod]]
     modId="minecraft"
