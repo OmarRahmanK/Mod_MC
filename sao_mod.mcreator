@@ -215,6 +215,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "tyrant_dragon"
+    },
+    {
+      "name": "AnnealBlade",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anneal_blade"
+    },
+    {
+      "name": "Karakurenai",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "karakurenai"
+    },
+    {
+      "name": "LiberatorSword",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liberator_sword"
     }
   ],
   "variable_elements": [],
@@ -224,7 +248,10 @@
       "block.sao_mod.kobold_ore": "Kobold Ore",
       "item.sao_mod.kobold_ingot": "Kobold",
       "item.sao_mod.tyrant_dragon": "Tyrant Dragon",
+      "item.sao_mod.karakurenai": "Karakurenai",
       "block.sao_mod.crystallite_block": "Block of Crystallite",
+      "item.sao_mod.liberator_sword": "Liberator Sword",
+      "item.sao_mod.anneal_blade": "Anneal Blade",
       "item.sao_mod.elucidator": "Elucidator",
       "item.sao_mod.lambent_light": "Lambent Light",
       "item.sao_mod.dark_repulser": "Dark Repulser",

@@ -16,11 +16,14 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.saomod.item.WindFleuretItem;
 import net.mcreator.saomod.item.TyrantDragonItem;
 import net.mcreator.saomod.item.PlatinumIngotItem;
+import net.mcreator.saomod.item.LiberatorSwordItem;
 import net.mcreator.saomod.item.LambentLightItem;
 import net.mcreator.saomod.item.KoboldIngotItem;
+import net.mcreator.saomod.item.KarakurenaiItem;
 import net.mcreator.saomod.item.ElucidatorItem;
 import net.mcreator.saomod.item.DarkRepulserItem;
 import net.mcreator.saomod.item.CrystalliteItem;
+import net.mcreator.saomod.item.AnnealBladeItem;
 import net.mcreator.saomod.SaoModMod;
 
 public class SaoModModItems {
@@ -39,6 +42,9 @@ public class SaoModModItems {
 	public static final RegistryObject<Item> PLATINUM_BLOCK = block(SaoModModBlocks.PLATINUM_BLOCK, SaoModModTabs.TAB_SWORD_ART);
 	public static final RegistryObject<Item> WIND_FLEURET = REGISTRY.register("wind_fleuret", () -> new WindFleuretItem());
 	public static final RegistryObject<Item> TYRANT_DRAGON = REGISTRY.register("tyrant_dragon", () -> new TyrantDragonItem());
+	public static final RegistryObject<Item> ANNEAL_BLADE = REGISTRY.register("anneal_blade", () -> new AnnealBladeItem());
+	public static final RegistryObject<Item> KARAKURENAI = REGISTRY.register("karakurenai", () -> new KarakurenaiItem());
+	public static final RegistryObject<Item> LIBERATOR_SWORD = REGISTRY.register("liberator_sword", () -> new LiberatorSwordItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

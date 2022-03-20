@@ -1,0 +1,29 @@
+{
+  "_fv": 25,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "anneal_blade",
+    "customModelName": "Normal",
+    "name": "Anneal Blade",
+    "specialInfo": [
+      "Anneal Blade is a swift and easily manipulated weapon that helps its holder to survive long enough to get a better sword."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SwordArt"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
