@@ -17,7 +17,7 @@ public class SaoModModTabs {
 		TAB_SWORD_ART = new CreativeModeTab("tabsword_art") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(SaoModModItems.DELETED_MOD_ELEMENT.get());
+				return new ItemStack(SaoModModItems.ELUCIDATOR.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)

@@ -15,8 +15,8 @@ import net.mcreator.saomod.init.SaoModModTabs;
 
 import java.util.List;
 
-public class ElucidatorItem extends SwordItem {
-	public ElucidatorItem() {
+public class WindFleuretItem extends SwordItem {
+	public WindFleuretItem() {
 		super(new Tier() {
 			public int getUses() {
 				return 100;
@@ -47,6 +47,6 @@ public class ElucidatorItem extends SwordItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("The Elucidator is a single-handed powerful sword"));
+		list.add(new TextComponent("Wind Fleuret is portrayed as a thin sword with a blade\u2019s length of 41\u2019\u2019."));
 	}
 }

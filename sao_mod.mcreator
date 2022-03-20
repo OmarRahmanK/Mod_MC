@@ -199,6 +199,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "platinum_ore_blast_smelting"
+    },
+    {
+      "name": "WindFleuret",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wind_fleuret"
+    },
+    {
+      "name": "TyrantDragon",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tyrant_dragon"
     }
   ],
   "variable_elements": [],
@@ -207,6 +223,7 @@
     "en_us": {
       "block.sao_mod.kobold_ore": "Kobold Ore",
       "item.sao_mod.kobold_ingot": "Kobold",
+      "item.sao_mod.tyrant_dragon": "Tyrant Dragon",
       "block.sao_mod.crystallite_block": "Block of Crystallite",
       "item.sao_mod.elucidator": "Elucidator",
       "item.sao_mod.lambent_light": "Lambent Light",
@@ -215,6 +232,7 @@
       "itemGroup.tabsword_art": "Sword Art",
       "block.sao_mod.crystallite_ore": "Crystallite Ore",
       "block.sao_mod.platinum_ore": "Platinum Ore",
+      "item.sao_mod.wind_fleuret": "Wind Fleuret",
       "item.sao_mod.platinum_ingot": "Platinum",
       "item.sao_mod.crystallite": "Crystallite",
       "block.sao_mod.kobold_block": "Block of Kobold"

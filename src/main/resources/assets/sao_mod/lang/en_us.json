@@ -1,5 +1,17 @@
 {
+  "block.sao_mod.kobold_ore": "Kobold Ore",
+  "item.sao_mod.kobold_ingot": "Kobold",
+  "item.sao_mod.tyrant_dragon": "Tyrant Dragon",
+  "block.sao_mod.crystallite_block": "Block of Crystallite",
+  "item.sao_mod.elucidator": "Elucidator",
+  "item.sao_mod.lambent_light": "Lambent Light",
+  "item.sao_mod.dark_repulser": "Dark Repulser",
+  "block.sao_mod.platinum_block": "Block of Platinum",
   "itemGroup.tabsword_art": "Sword Art",
-  "item.sao_mod.we_can_do_custom_music": "We Can Do Custom Music",
-  "item.sao_mod.we_can_do_custom_music.desc": "Crossing Field??"
+  "block.sao_mod.crystallite_ore": "Crystallite Ore",
+  "block.sao_mod.platinum_ore": "Platinum Ore",
+  "item.sao_mod.wind_fleuret": "Wind Fleuret",
+  "item.sao_mod.platinum_ingot": "Platinum",
+  "item.sao_mod.crystallite": "Crystallite",
+  "block.sao_mod.kobold_block": "Block of Kobold"
 }
