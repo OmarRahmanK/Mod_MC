@@ -1,7 +1,19 @@
 
 package net.mcreator.saomod.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.network.chat.TextComponent;
+import net.minecraft.network.chat.Component;
+
+import net.mcreator.saomod.init.SaoModModTabs;
+
+import java.util.List;
 
 public class MateChopperItem extends SwordItem {
 	public MateChopperItem() {
@@ -29,11 +41,7 @@ public class MateChopperItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		},
-
-				3, -3f,
-
-				new Item.Properties().tab(SaoModModTabs.TAB_SWORD_ART));
+		}, 3, -3f, new Item.Properties().tab(SaoModModTabs.TAB_SWORD_ART));
 	}
 
 	@Override
@@ -42,5 +50,4 @@ public class MateChopperItem extends SwordItem {
 		list.add(new TextComponent("Mate Chopper is a powerful weapon owned by PoH"));
 		list.add(new TextComponent("the founder of the guild \"Laughing Coffin\"."));
 	}
-
 }
