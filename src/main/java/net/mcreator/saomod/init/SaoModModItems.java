@@ -45,7 +45,7 @@ public class SaoModModItems {
 	public static final RegistryObject<Item> KOBOLD_INGOT = REGISTRY.register("kobold_ingot", () -> new KoboldIngotItem());
 	public static final RegistryObject<Item> KOBOLD_ORE = block(SaoModModBlocks.KOBOLD_ORE, SaoModModTabs.TAB_SWORD_ART);
 	public static final RegistryObject<Item> KOBOLD_BLOCK = block(SaoModModBlocks.KOBOLD_BLOCK, SaoModModTabs.TAB_SWORD_ART);
-	public static final RegistryObject<Item> CRYSTALLITE_INGOT = REGISTRY.register("crystallite_ingot", () -> new CrystalliteItem());
+	public static final RegistryObject<Item> CRYSTALLITE = REGISTRY.register("crystallite", () -> new CrystalliteItem());
 	public static final RegistryObject<Item> CRYSTALLITE_ORE = block(SaoModModBlocks.CRYSTALLITE_ORE, SaoModModTabs.TAB_SWORD_ART);
 	public static final RegistryObject<Item> CRYSTALLITE_BLOCK = block(SaoModModBlocks.CRYSTALLITE_BLOCK, SaoModModTabs.TAB_SWORD_ART);
 	public static final RegistryObject<Item> PLATINUM_INGOT = REGISTRY.register("platinum_ingot", () -> new PlatinumIngotItem());

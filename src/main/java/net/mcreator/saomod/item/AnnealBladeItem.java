@@ -1,7 +1,19 @@
 
 package net.mcreator.saomod.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.network.chat.TextComponent;
+import net.minecraft.network.chat.Component;
+
+import net.mcreator.saomod.init.SaoModModTabs;
+
+import java.util.List;
 
 public class AnnealBladeItem extends SwordItem {
 	public AnnealBladeItem() {
@@ -29,11 +41,7 @@ public class AnnealBladeItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		},
-
-				3, -3f,
-
-				new Item.Properties().tab(SaoModModTabs.TAB_SWORD_ART));
+		}, 3, -3f, new Item.Properties().tab(SaoModModTabs.TAB_SWORD_ART));
 	}
 
 	@Override
@@ -42,5 +50,4 @@ public class AnnealBladeItem extends SwordItem {
 		list.add(new TextComponent(
 				"Anneal Blade is a swift and easily manipulated weapon that helps its holder to survive long enough to get a better sword."));
 	}
-
 }

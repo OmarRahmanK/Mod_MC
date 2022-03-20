@@ -422,8 +422,8 @@
   "language_map": {
     "en_us": {
       "item.sao_mod.kobold_shovel": "Kobold Shovel",
-      "item.sao_mod.kobold_ingot": "Kobold",
       "block.sao_mod.kobold_ore": "Kobold Ore",
+      "item.sao_mod.kobold_ingot": "Kobold",
       "item.sao_mod.crystallite_shovel": "Crystallite Shovel",
       "item.sao_mod.kobold_axe": "Kobold Axe",
       "item.sao_mod.crystallite_axe": "Crystallite Axe",

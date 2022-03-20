@@ -1,7 +1,14 @@
 
 package net.mcreator.saomod.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.HoeItem;
+
+import net.mcreator.saomod.init.SaoModModTabs;
+import net.mcreator.saomod.init.SaoModModItems;
 
 public class CrystalliteHoeItem extends HoeItem {
 	public CrystalliteHoeItem() {
@@ -29,11 +36,6 @@ public class CrystalliteHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(SaoModModItems.CRYSTALLITE.get()));
 			}
-		},
-
-				0, -3f,
-
-				new Item.Properties().tab(SaoModModTabs.TAB_SWORD_ART));
+		}, 0, -3f, new Item.Properties().tab(SaoModModTabs.TAB_SWORD_ART));
 	}
-
 }
