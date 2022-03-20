@@ -181,8 +181,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.sao_mod.kobold_ingot": "Kobold",
       "block.sao_mod.kobold_ore": "Kobold Ore",
+      "item.sao_mod.kobold_ingot": "Kobold",
       "block.sao_mod.crystallite_block": "Block of Crystallite",
       "item.sao_mod.elucidator": "Elucidator",
       "item.sao_mod.lambent_light": "Lambent Light",
@@ -196,19 +196,19 @@
       "block.sao_mod.kobold_block": "Block of Kobold"
     },
     "ja_jp": {
-      "block.sao_mod.kobold_ore": "コボルド鉱石",
-      "item.sao_mod.kobold_ingot": "コボルド",
-      "block.sao_mod.crystallite_block": "クリスタライトのブロック",
-      "item.sao_mod.elucidator": "エリュシデータ",
-      "item.sao_mod.lambent_light": "ランベントライト",
-      "item.sao_mod.dark_repulser": "ダークリパルサー",
-      "block.sao_mod.platinum_block": "プラチナのブロック",
-      "itemGroup.tabsword_art": "ソードアート",
-      "block.sao_mod.crystallite_ore": "クリスタライト 鉱石",
-      "block.sao_mod.platinum_ore": "鉱石鉱石",
-      "item.sao_mod.platinum_ingot": "白金",
-      "item.sao_mod.crystallite": "クリスタライト",
-      "block.sao_mod.kobold_block": "コボルドのブロック"
+      "item.sao_mod.kobold_ingot": "ã‚³ãƒœãƒ«ãƒ‰",
+      "block.sao_mod.kobold_ore": "ã‚³ãƒœãƒ«ãƒ‰é‰±çŸ³",
+      "block.sao_mod.crystallite_block": "ã‚¯ãƒªã‚¹ã‚¿ãƒ©ã‚¤ãƒˆã�®ãƒ–ãƒ­ãƒƒã‚¯",
+      "item.sao_mod.elucidator": "ã‚¨ãƒªãƒ¥ã‚·ãƒ‡ãƒ¼ã‚¿",
+      "item.sao_mod.lambent_light": "ãƒ©ãƒ³ãƒ™ãƒ³ãƒˆãƒ©ã‚¤ãƒˆ",
+      "item.sao_mod.dark_repulser": "ãƒ€ãƒ¼ã‚¯ãƒªãƒ‘ãƒ«ã‚µãƒ¼",
+      "block.sao_mod.platinum_block": "ãƒ—ãƒ©ãƒ�ãƒŠã�®ãƒ–ãƒ­ãƒƒã‚¯",
+      "itemGroup.tabsword_art": "ã‚½ãƒ¼ãƒ‰ã‚¢ãƒ¼ãƒˆ",
+      "block.sao_mod.crystallite_ore": "ã‚¯ãƒªã‚¹ã‚¿ãƒ©ã‚¤ãƒˆ é‰±çŸ³",
+      "block.sao_mod.platinum_ore": "é‰±çŸ³é‰±çŸ³",
+      "item.sao_mod.platinum_ingot": "ç™½é‡‘",
+      "item.sao_mod.crystallite": "ã‚¯ãƒªã‚¹ã‚¿ãƒ©ã‚¤ãƒˆ",
+      "block.sao_mod.kobold_block": "ã‚³ãƒœãƒ«ãƒ‰ã�®ãƒ–ãƒ­ãƒƒã‚¯"
     }
   },
   "foldersRoot": {
