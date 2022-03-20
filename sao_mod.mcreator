@@ -229,9 +229,9 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.sao_mod.kobold_ore": "Kobold Ore",
-      "item.sao_mod.kobold_ingot": "Kobold",
       "item.sao_mod.tyrant_dragon": "Tyrant Dragon",
+      "item.sao_mod.kobold_ingot": "Kobold",
+      "block.sao_mod.kobold_ore": "Kobold Ore",
       "block.sao_mod.crystallite_block": "Block of Crystallite",
       "item.sao_mod.elucidator": "Elucidator",
       "item.sao_mod.lambent_light": "Lambent Light",
