@@ -7,13 +7,13 @@
   ],
   "key": {
     "0": {
-      "item": "sao_mod:crystallite_ingot"
+      "item": "sao_mod:crystallite"
     },
     "1": {
-      "item": "sao_mod:crystallite_ingot"
+      "item": "sao_mod:crystallite"
     },
     "2": {
-      "item": "sao_mod:crystallite_ingot"
+      "item": "sao_mod:crystallite"
     },
     "4": {
       "item": "minecraft:stick"
@@ -23,7 +23,7 @@
     }
   },
   "result": {
-    "item": "sao_mod:crystallite_pickaxe",
+    "item": "sao_mod:deleted_mod_element",
     "count": 1
   }
 }

@@ -391,36 +391,49 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sword_art_inventory"
+    },
+    {
+      "name": "AnnealBlade",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anneal_blade"
+    },
+    {
+      "name": "Karakurenai",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "karakurenai"
+    },
+    {
+      "name": "LiberatorSword",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liberator_sword"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.sao_mod.kobold_shovel": "Kobold Shovel",
       "block.sao_mod.kobold_ore": "Kobold Ore",
       "item.sao_mod.kobold_ingot": "Kobold",
-      "item.sao_mod.crystallite_shovel": "Crystallite Shovel",
-      "item.sao_mod.kobold_axe": "Kobold Axe",
-      "item.sao_mod.crystallite_axe": "Crystallite Axe",
-      "item.sao_mod.kobold_pickaxe": "Kobold Pickaxe",
       "item.sao_mod.lambent_light": "Lambent Light",
-      "item.sao_mod.mate_chopper": "Mate Chopper",
-      "item.sao_mod.guilty_thorn": "Guilty Thorn",
       "itemGroup.tabsword_art": "Sword Art",
-      "item.sao_mod.kobold_hoe": "Kobold Hoe",
       "block.sao_mod.kobold_block": "Block of Kobold",
       "item.sao_mod.tyrant_dragon": "Tyrant Dragon",
       "block.sao_mod.crystallite_block": "Block of Crystallite",
       "item.sao_mod.elucidator": "Elucidator",
-      "item.sao_mod.kobold_sword": "Kobold Sword",
       "item.sao_mod.dark_repulser": "Dark Repulser",
       "block.sao_mod.platinum_block": "Block of Platinum",
       "item.sao_mod.crystallite_ingot": "Crystallite",
       "block.sao_mod.crystallite_ore": "Crystallite Ore",
       "block.sao_mod.platinum_ore": "Platinum Ore",
-      "item.sao_mod.crystallite_pickaxe": "Crystallite Pickaxe",
-      "item.sao_mod.crystallite_hoe": "Crystallite Hoe",
       "item.sao_mod.wind_fleuret": "Wind Fleuret",
       "item.sao_mod.platinum_ingot": "Platinum"
     }

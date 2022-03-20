@@ -1,0 +1,31 @@
+{
+  "_fv": 25,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "liberator_sword",
+    "customModelName": "Normal",
+    "name": "Liberator Sword",
+    "specialInfo": [
+      "Liberator is a combined weapon consisting of a single-handed straight sword",
+      "and a tower shield crafted in a silvery metal",
+      "decorated with red crosses."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SwordArt"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

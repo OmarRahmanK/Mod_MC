@@ -1,0 +1,29 @@
+{
+  "_fv": 25,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "karakurenai2",
+    "customModelName": "Normal",
+    "name": "Karakurenai",
+    "specialInfo": [
+      "Karakurenai is a curved katana."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SwordArt"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
