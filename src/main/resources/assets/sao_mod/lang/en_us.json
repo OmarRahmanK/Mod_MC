@@ -17,8 +17,8 @@
   "block.sao_mod.crystallite_block": "Block of Crystallite",
   "item.sao_mod.liberator_sword": "Liberator Sword",
   "item.sao_mod.anneal_blade": "Anneal Blade",
-  "item.sao_mod.elucidator": "Elucidator",
   "item.sao_mod.kobold_sword": "Kobold Sword",
+  "item.sao_mod.elucidator": "Elucidator",
   "item.sao_mod.dark_repulser": "Dark Repulser",
   "block.sao_mod.platinum_block": "Block of Platinum",
   "item.sao_mod.crystallite_ingot": "Crystallite",
@@ -27,6 +27,5 @@
   "item.sao_mod.crystallite_pickaxe": "Crystallite Pickaxe",
   "item.sao_mod.crystallite_hoe": "Crystallite Hoe",
   "item.sao_mod.wind_fleuret": "Wind Fleuret",
-  "item.sao_mod.platinum_ingot": "Platinum",
-  "item.sao_mod.crystallite": "Crystallite"
+  "item.sao_mod.platinum_ingot": "Platinum"
 }
