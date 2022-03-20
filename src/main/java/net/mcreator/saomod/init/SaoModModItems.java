@@ -55,6 +55,7 @@ public class SaoModModItems {
 	public static final RegistryObject<Item> KOBOLD_SWORD = REGISTRY.register("kobold_sword", () -> new KoboldSwordItem());
 	public static final RegistryObject<Item> KOBOLD_SHOVEL = REGISTRY.register("kobold_shovel", () -> new KoboldShovelItem());
 	public static final RegistryObject<Item> KOBOLD_HOE = REGISTRY.register("kobold_hoe", () -> new KoboldHoeItem());
+	public static final RegistryObject<Item> SWORD_WORKBENCH = block(SaoModModBlocks.SWORD_WORKBENCH, SaoModModTabs.TAB_SWORD_ART);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
