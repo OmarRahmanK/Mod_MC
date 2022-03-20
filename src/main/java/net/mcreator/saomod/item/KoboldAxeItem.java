@@ -1,14 +1,7 @@
 
 package net.mcreator.saomod.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.AxeItem;
-
-import net.mcreator.saomod.init.SaoModModTabs;
-import net.mcreator.saomod.init.SaoModModItems;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class KoboldAxeItem extends AxeItem {
 	public KoboldAxeItem() {
@@ -36,6 +29,11 @@ public class KoboldAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(SaoModModItems.KOBOLD_INGOT.get()));
 			}
-		}, 1, -3f, new Item.Properties().tab(SaoModModTabs.TAB_SWORD_ART));
+		},
+
+				1, -3f,
+
+				new Item.Properties().tab(SaoModModTabs.TAB_SWORD_ART));
 	}
+
 }

@@ -45,7 +45,7 @@ public class SaoModModItems {
 	public static final RegistryObject<Item> KOBOLD_INGOT = REGISTRY.register("kobold_ingot", () -> new KoboldIngotItem());
 	public static final RegistryObject<Item> KOBOLD_ORE = block(SaoModModBlocks.KOBOLD_ORE, SaoModModTabs.TAB_SWORD_ART);
 	public static final RegistryObject<Item> KOBOLD_BLOCK = block(SaoModModBlocks.KOBOLD_BLOCK, SaoModModTabs.TAB_SWORD_ART);
-	public static final RegistryObject<Item> CRYSTALLITE_INGOT = REGISTRY.register("crystallite_ingot", () -> new CrystalliteItem());
+	public static final RegistryObject<Item> CRYSTALLITE = REGISTRY.register("crystallite", () -> new CrystalliteItem());
 	public static final RegistryObject<Item> CRYSTALLITE_ORE = block(SaoModModBlocks.CRYSTALLITE_ORE, SaoModModTabs.TAB_SWORD_ART);
 	public static final RegistryObject<Item> CRYSTALLITE_BLOCK = block(SaoModModBlocks.CRYSTALLITE_BLOCK, SaoModModTabs.TAB_SWORD_ART);
 	public static final RegistryObject<Item> PLATINUM_INGOT = REGISTRY.register("platinum_ingot", () -> new PlatinumIngotItem());
@@ -53,12 +53,12 @@ public class SaoModModItems {
 	public static final RegistryObject<Item> PLATINUM_BLOCK = block(SaoModModBlocks.PLATINUM_BLOCK, SaoModModTabs.TAB_SWORD_ART);
 	public static final RegistryObject<Item> WIND_FLEURET = REGISTRY.register("wind_fleuret", () -> new WindFleuretItem());
 	public static final RegistryObject<Item> TYRANT_DRAGON = REGISTRY.register("tyrant_dragon", () -> new TyrantDragonItem());
-	public static final RegistryObject<Item> GUILTY_THORN = REGISTRY.register("guilty_thorn", () -> new GuiltyThornItem());
 	public static final RegistryObject<Item> ANNEAL_BLADE = REGISTRY.register("anneal_blade", () -> new AnnealBladeItem());
-	public static final RegistryObject<Item> MATE_CHOPPER = REGISTRY.register("mate_chopper", () -> new MateChopperItem());
+	public static final RegistryObject<Item> GUILTY_THORN = REGISTRY.register("guilty_thorn", () -> new GuiltyThornItem());
 	public static final RegistryObject<Item> KARAKURENAI = REGISTRY.register("karakurenai", () -> new KarakurenaiItem());
-	public static final RegistryObject<Item> KOBOLD_PICKAXE = REGISTRY.register("kobold_pickaxe", () -> new KoboldPickaxeItem());
+	public static final RegistryObject<Item> MATE_CHOPPER = REGISTRY.register("mate_chopper", () -> new MateChopperItem());
 	public static final RegistryObject<Item> LIBERATOR_SWORD = REGISTRY.register("liberator_sword", () -> new LiberatorSwordItem());
+	public static final RegistryObject<Item> KOBOLD_PICKAXE = REGISTRY.register("kobold_pickaxe", () -> new KoboldPickaxeItem());
 	public static final RegistryObject<Item> KOBOLD_AXE = REGISTRY.register("kobold_axe", () -> new KoboldAxeItem());
 	public static final RegistryObject<Item> KOBOLD_SWORD = REGISTRY.register("kobold_sword", () -> new KoboldSwordItem());
 	public static final RegistryObject<Item> KOBOLD_SHOVEL = REGISTRY.register("kobold_shovel", () -> new KoboldShovelItem());
