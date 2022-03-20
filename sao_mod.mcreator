@@ -175,6 +175,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "platinum_ore_smelting"
+    },
+    {
+      "name": "KoboldOreBlastSmelting",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_ore_blast_smelting"
+    },
+    {
+      "name": "CrystalliteOreBlastSmelting",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystallite_ore_blast_smelting"
+    },
+    {
+      "name": "PlatinumOreBlastSmelting",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore_blast_smelting"
     }
   ],
   "variable_elements": [],
