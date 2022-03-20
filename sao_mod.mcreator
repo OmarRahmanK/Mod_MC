@@ -1,30 +1,9 @@
 {
-  "mod_elements": [
-    {
-      "name": "SwordArt",
-      "type": "tab",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sword_art"
-    },
-    {
-      "name": "WeCanDoCustomMusic",
-      "type": "musicdisc",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "we_can_do_custom_music"
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "itemGroup.tabsword_art": "Sword Art",
-      "item.sao_mod.we_can_do_custom_music": "We Can Do Custom Music",
-      "item.sao_mod.we_can_do_custom_music.desc": "Crossing Field??"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
