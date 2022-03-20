@@ -18,6 +18,7 @@ import net.mcreator.saomod.item.TyrantDragonItem;
 import net.mcreator.saomod.item.PlatinumIngotItem;
 import net.mcreator.saomod.item.LambentLightItem;
 import net.mcreator.saomod.item.KoboldIngotItem;
+import net.mcreator.saomod.item.GuiltyThornItem;
 import net.mcreator.saomod.item.ElucidatorItem;
 import net.mcreator.saomod.item.DarkRepulserItem;
 import net.mcreator.saomod.item.CrystalliteItem;
@@ -39,6 +40,7 @@ public class SaoModModItems {
 	public static final RegistryObject<Item> PLATINUM_BLOCK = block(SaoModModBlocks.PLATINUM_BLOCK, SaoModModTabs.TAB_SWORD_ART);
 	public static final RegistryObject<Item> WIND_FLEURET = REGISTRY.register("wind_fleuret", () -> new WindFleuretItem());
 	public static final RegistryObject<Item> TYRANT_DRAGON = REGISTRY.register("tyrant_dragon", () -> new TyrantDragonItem());
+	public static final RegistryObject<Item> GUILTY_THORN = REGISTRY.register("guilty_thorn", () -> new GuiltyThornItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
