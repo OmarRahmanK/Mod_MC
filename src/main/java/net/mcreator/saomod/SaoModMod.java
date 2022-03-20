@@ -28,6 +28,8 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.saomod.init.SaoModModTabs;
 import net.mcreator.saomod.init.SaoModModItems;
+import net.mcreator.saomod.init.SaoModModFeatures;
+import net.mcreator.saomod.init.SaoModModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -45,8 +47,10 @@ public class SaoModMod {
 	public SaoModMod() {
 		SaoModModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		SaoModModBlocks.REGISTRY.register(bus);
 		SaoModModItems.REGISTRY.register(bus);
+
+		SaoModModFeatures.REGISTRY.register(bus);
 
 	}
 

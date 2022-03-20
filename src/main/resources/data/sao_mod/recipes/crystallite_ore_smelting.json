@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 2.2399999999999998,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "sao_mod:crystallite_ore"
+  },
+  "result": "sao_mod:crystallite"
+}

@@ -31,22 +31,184 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lambent_light"
+    },
+    {
+      "name": "KoboldIngot",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_ingot"
+    },
+    {
+      "name": "KoboldOre",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_ore"
+    },
+    {
+      "name": "KoboldBlock",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_block"
+    },
+    {
+      "name": "KoboldOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_ore_block_recipe"
+    },
+    {
+      "name": "KoboldBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_block_ore_recipe"
+    },
+    {
+      "name": "KoboldOreSmelting",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kobold_ore_smelting"
+    },
+    {
+      "name": "Crystallite",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystallite"
+    },
+    {
+      "name": "CrystalliteOre",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystallite_ore"
+    },
+    {
+      "name": "CrystalliteBlock",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystallite_block"
+    },
+    {
+      "name": "CrystalliteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystallite_ore_block_recipe"
+    },
+    {
+      "name": "CrystalliteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystallite_block_ore_recipe"
+    },
+    {
+      "name": "CrystalliteOreSmelting",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystallite_ore_smelting"
+    },
+    {
+      "name": "PlatinumIngot",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ingot"
+    },
+    {
+      "name": "PlatinumOre",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore"
+    },
+    {
+      "name": "PlatinumBlock",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_block"
+    },
+    {
+      "name": "PlatinumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore_block_recipe"
+    },
+    {
+      "name": "PlatinumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_block_ore_recipe"
+    },
+    {
+      "name": "PlatinumOreSmelting",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore_smelting"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.sao_mod.dark_repulser": "Dark Repulser",
-      "itemGroup.tabsword_art": "Sword Art",
+      "item.sao_mod.kobold_ingot": "Kobold",
+      "block.sao_mod.kobold_ore": "Kobold Ore",
+      "block.sao_mod.crystallite_block": "Block of Crystallite",
       "item.sao_mod.elucidator": "Elucidator",
-      "item.sao_mod.lambent_light": "Lambent Light"
+      "item.sao_mod.lambent_light": "Lambent Light",
+      "item.sao_mod.dark_repulser": "Dark Repulser",
+      "block.sao_mod.platinum_block": "Block of Platinum",
+      "itemGroup.tabsword_art": "Sword Art",
+      "block.sao_mod.crystallite_ore": "Crystallite Ore",
+      "block.sao_mod.platinum_ore": "Platinum Ore",
+      "item.sao_mod.platinum_ingot": "Platinum",
+      "item.sao_mod.crystallite": "Crystallite",
+      "block.sao_mod.kobold_block": "Block of Kobold"
     },
     "ja_jp": {
-      "item.sao_mod.dark_repulser": "ダークリパルサー",
-      "itemGroup.tabsword_art": "ソードアート",
+      "item.sao_mod.kobold_ingot": "Kobold",
+      "block.sao_mod.kobold_ore": "Kobold Ore",
+      "block.sao_mod.crystallite_block": "Block of Crystallite",
       "item.sao_mod.elucidator": "エリュシデータ",
-      "item.sao_mod.lambent_light": "ランベントライト"
+      "item.sao_mod.lambent_light": "ランベントライト",
+      "item.sao_mod.dark_repulser": "ダークリパルサー",
+      "block.sao_mod.platinum_block": "Block of Platinum",
+      "itemGroup.tabsword_art": "ソードアート",
+      "block.sao_mod.crystallite_ore": "Crystallite Ore",
+      "block.sao_mod.platinum_ore": "Platinum Ore",
+      "item.sao_mod.platinum_ingot": "Platinum",
+      "item.sao_mod.crystallite": "Crystallite",
+      "block.sao_mod.kobold_block": "Block of Kobold"
     }
   },
   "foldersRoot": {
