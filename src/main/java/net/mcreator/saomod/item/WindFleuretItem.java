@@ -47,6 +47,6 @@ public class WindFleuretItem extends SwordItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("Wind Fleuret is portrayed as a thin sword with a blade\u2019s length of 41\u2019\u2019."));
+		list.add(new TextComponent("Wind Fleuret is portrayed as a thin sword with the blade's length of 41\"."));
 	}
 }
