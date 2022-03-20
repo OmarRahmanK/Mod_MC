@@ -1,0 +1,46 @@
+{
+  "_fv": 25,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Crystallite"
+      },
+      {
+        "value": "CUSTOM:Crystallite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Crystallite"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CrystalliteAxe"
+    },
+    "name": "crystallite_axe_recipe",
+    "namespace": "mod"
+  }
+}

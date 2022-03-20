@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sao_mod:blocks/platinum_ore_block",
+    "particle": "sao_mod:blocks/platinum_ore_block"
+  }
+}

@@ -8,7 +8,7 @@
     "name": "Crystallite",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:SwordArt"
     },
     "stackSize": 64,
     "enchantability": 0,

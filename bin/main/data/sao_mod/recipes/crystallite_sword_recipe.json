@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "sao_mod:crystallite"
+    },
+    "1": {
+      "item": "sao_mod:crystallite"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "sao_mod:crystallite_sword",
+    "count": 1
+  }
+}
