@@ -221,9 +221,9 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.sao_mod.kobold_ore": "Kobold Ore",
-      "item.sao_mod.kobold_ingot": "Kobold",
       "item.sao_mod.tyrant_dragon": "Tyrant Dragon",
+      "item.sao_mod.kobold_ingot": "Kobold",
+      "block.sao_mod.kobold_ore": "Kobold Ore",
       "block.sao_mod.crystallite_block": "Block of Crystallite",
       "item.sao_mod.elucidator": "Elucidator",
       "item.sao_mod.lambent_light": "Lambent Light",
@@ -246,7 +246,8 @@
     "modid": "sao_mod",
     "modName": "SAO Mod",
     "version": "1.0.0",
-    "author": "spide, MCreator",
+    "description": "A mod that adds SAO items and skills to minecraft.",
+    "author": "OmarRahmanK, ninichyu, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
