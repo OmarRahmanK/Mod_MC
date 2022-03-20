@@ -3,11 +3,11 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "elucidator",
+    "texture": "lambent_light",
     "customModelName": "Normal",
-    "name": "Elucidator",
+    "name": "Lambent Light",
     "specialInfo": [
-      "The Elucidator is a single-handed powerful sword"
+      "Lambent Light is a single-handed rapier."
     ],
     "creativeTab": {
       "value": "CUSTOM:SwordArt"

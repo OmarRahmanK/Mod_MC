@@ -3,11 +3,11 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "elucidator",
+    "texture": "dark_repulsor",
     "customModelName": "Normal",
-    "name": "Elucidator",
+    "name": "Dark Repulser",
     "specialInfo": [
-      "The Elucidator is a single-handed powerful sword"
+      "The Dark Repulser is a slender and maneuverable sword."
     ],
     "creativeTab": {
       "value": "CUSTOM:SwordArt"

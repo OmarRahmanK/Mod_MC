@@ -26,6 +26,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.saomod.init.SaoModModTabs;
 import net.mcreator.saomod.init.SaoModModItems;
 
 import java.util.function.Supplier;
@@ -42,7 +43,7 @@ public class SaoModMod {
 	private static int messageID = 0;
 
 	public SaoModMod() {
-
+		SaoModModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		SaoModModItems.REGISTRY.register(bus);

@@ -7,13 +7,46 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "elucidator"
+    },
+    {
+      "name": "SwordArt",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_art"
+    },
+    {
+      "name": "DarkRepulser",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_repulser"
+    },
+    {
+      "name": "LambentLight",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lambent_light"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.sao_mod.elucidator": "Elucidator"
+      "item.sao_mod.dark_repulser": "Dark Repulser",
+      "itemGroup.tabsword_art": "Sword Art",
+      "item.sao_mod.elucidator": "Elucidator",
+      "item.sao_mod.lambent_light": "Lambent Light"
+    },
+    "ja_jp": {
+      "item.sao_mod.dark_repulser": "ダークリパルサー",
+      "itemGroup.tabsword_art": "ソードアート",
+      "item.sao_mod.elucidator": "エリュシデータ",
+      "item.sao_mod.lambent_light": "ランベントライト"
     }
   },
   "foldersRoot": {
