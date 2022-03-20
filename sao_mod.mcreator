@@ -329,14 +329,6 @@
       "registry_name": "crystallite_axe"
     },
     {
-      "name": "CrystalliteSword",
-      "type": "tool",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystallite_sword"
-    },
-    {
       "name": "CrystalliteShovel",
       "type": "tool",
       "sortid": 43,
@@ -398,8 +390,8 @@
   "language_map": {
     "en_us": {
       "item.sao_mod.kobold_shovel": "Kobold Shovel",
-      "block.sao_mod.kobold_ore": "Kobold Ore",
       "item.sao_mod.kobold_ingot": "Kobold",
+      "block.sao_mod.kobold_ore": "Kobold Ore",
       "item.sao_mod.crystallite_shovel": "Crystallite Shovel",
       "item.sao_mod.kobold_axe": "Kobold Axe",
       "item.sao_mod.crystallite_axe": "Crystallite Axe",
@@ -421,7 +413,6 @@
       "block.sao_mod.platinum_ore": "Platinum Ore",
       "item.sao_mod.crystallite_pickaxe": "Crystallite Pickaxe",
       "item.sao_mod.crystallite_hoe": "Crystallite Hoe",
-      "item.sao_mod.crystallite_sword": "Crystallite Sword",
       "item.sao_mod.wind_fleuret": "Wind Fleuret",
       "item.sao_mod.platinum_ingot": "Platinum"
     }

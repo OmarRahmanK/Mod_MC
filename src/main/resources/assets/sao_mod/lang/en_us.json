@@ -1,7 +1,7 @@
 {
   "item.sao_mod.kobold_shovel": "Kobold Shovel",
-  "block.sao_mod.kobold_ore": "Kobold Ore",
   "item.sao_mod.kobold_ingot": "Kobold",
+  "block.sao_mod.kobold_ore": "Kobold Ore",
   "item.sao_mod.crystallite_shovel": "Crystallite Shovel",
   "item.sao_mod.kobold_axe": "Kobold Axe",
   "item.sao_mod.crystallite_axe": "Crystallite Axe",
@@ -23,7 +23,6 @@
   "block.sao_mod.platinum_ore": "Platinum Ore",
   "item.sao_mod.crystallite_pickaxe": "Crystallite Pickaxe",
   "item.sao_mod.crystallite_hoe": "Crystallite Hoe",
-  "item.sao_mod.crystallite_sword": "Crystallite Sword",
   "item.sao_mod.wind_fleuret": "Wind Fleuret",
   "item.sao_mod.platinum_ingot": "Platinum"
 }

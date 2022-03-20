@@ -27,7 +27,6 @@ import net.mcreator.saomod.item.KoboldAxeItem;
 import net.mcreator.saomod.item.GuiltyThornItem;
 import net.mcreator.saomod.item.ElucidatorItem;
 import net.mcreator.saomod.item.DarkRepulserItem;
-import net.mcreator.saomod.item.CrystalliteSwordItem;
 import net.mcreator.saomod.item.CrystalliteShovelItem;
 import net.mcreator.saomod.item.CrystallitePickaxeItem;
 import net.mcreator.saomod.item.CrystalliteItem;
@@ -60,7 +59,6 @@ public class SaoModModItems {
 	public static final RegistryObject<Item> KOBOLD_HOE = REGISTRY.register("kobold_hoe", () -> new KoboldHoeItem());
 	public static final RegistryObject<Item> CRYSTALLITE_PICKAXE = REGISTRY.register("crystallite_pickaxe", () -> new CrystallitePickaxeItem());
 	public static final RegistryObject<Item> CRYSTALLITE_AXE = REGISTRY.register("crystallite_axe", () -> new CrystalliteAxeItem());
-	public static final RegistryObject<Item> CRYSTALLITE_SWORD = REGISTRY.register("crystallite_sword", () -> new CrystalliteSwordItem());
 	public static final RegistryObject<Item> CRYSTALLITE_SHOVEL = REGISTRY.register("crystallite_shovel", () -> new CrystalliteShovelItem());
 	public static final RegistryObject<Item> CRYSTALLITE_HOE = REGISTRY.register("crystallite_hoe", () -> new CrystalliteHoeItem());
 
