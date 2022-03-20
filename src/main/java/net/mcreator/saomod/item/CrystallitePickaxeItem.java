@@ -3,15 +3,15 @@ package net.mcreator.saomod.item;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.saomod.init.SaoModModTabs;
 import net.mcreator.saomod.init.SaoModModItems;
 
-public class CrystalliteSwordItem extends SwordItem {
-	public CrystalliteSwordItem() {
+public class CrystallitePickaxeItem extends PickaxeItem {
+	public CrystallitePickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
 				return 1444;
@@ -22,7 +22,7 @@ public class CrystalliteSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 19f;
+				return 5f;
 			}
 
 			public int getLevel() {
@@ -34,8 +34,8 @@ public class CrystalliteSwordItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(SaoModModItems.CRYSTALLITE.get()));
+				return Ingredient.of(new ItemStack(SaoModModItems.CRYSTALLITE_INGOT.get()));
 			}
-		}, 3, -3f, new Item.Properties().tab(SaoModModTabs.TAB_SWORD_ART));
+		}, 1, -3f, new Item.Properties().tab(SaoModModTabs.TAB_SWORD_ART));
 	}
 }
