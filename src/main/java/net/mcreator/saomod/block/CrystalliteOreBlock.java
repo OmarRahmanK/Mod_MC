@@ -41,6 +41,6 @@ public class CrystalliteOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(SaoModModItems.CRYSTALLITE_INGOT.get()));
+		return Collections.singletonList(new ItemStack(SaoModModItems.CRYSTALLITE.get()));
 	}
 }
