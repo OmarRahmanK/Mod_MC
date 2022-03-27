@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "sao_mod:blocks/kobold_ore",
-    "particle": "sao_mod:blocks/kobold_ore"
-  }
-}

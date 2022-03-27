@@ -1,9 +1,25 @@
 
 package net.mcreator.saomod.network;
 
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.saomod.world.inventory.SwordArtInventoryMenu;
+import net.mcreator.saomod.procedures.ElucidatorRecipeProcedure;
+import net.mcreator.saomod.SaoModMod;
+
+import java.util.function.Supplier;
+import java.util.HashMap;
+
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class SwordArtInventoryButtonMessage {
-
 	private final int buttonID, x, y, z;
 
 	public SwordArtInventoryButtonMessage(FriendlyByteBuf buffer) {
@@ -35,7 +51,6 @@ public class SwordArtInventoryButtonMessage {
 			int x = message.x;
 			int y = message.y;
 			int z = message.z;
-
 			handleButtonAction(entity, buttonID, x, y, z);
 		});
 		context.setPacketHandled(true);
@@ -44,14 +59,12 @@ public class SwordArtInventoryButtonMessage {
 	public static void handleButtonAction(Player entity, int buttonID, int x, int y, int z) {
 		Level world = entity.level;
 		HashMap guistate = SwordArtInventoryMenu.guistate;
-
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
-
 		if (buttonID == 0) {
 
-			ElucidatorRecipeProcedure.execute();
+			ElucidatorRecipeProcedure.execute(world, x, y, z);
 		}
 	}
 
@@ -60,5 +73,4 @@ public class SwordArtInventoryButtonMessage {
 		SaoModMod.addNetworkMessage(SwordArtInventoryButtonMessage.class, SwordArtInventoryButtonMessage::buffer, SwordArtInventoryButtonMessage::new,
 				SwordArtInventoryButtonMessage::handler);
 	}
-
 }
