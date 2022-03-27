@@ -156,7 +156,7 @@
       "name": "Karakurenai",
       "type": "tool",
       "sortid": 29,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "karakurenai"
     },
@@ -172,7 +172,7 @@
       "name": "SwordArtInventory",
       "type": "gui",
       "sortid": 50,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "sword_art_inventory"
     },
@@ -196,7 +196,7 @@
       "name": "KoboldHoe",
       "type": "tool",
       "sortid": 34,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "kobold_hoe"
     },
@@ -212,7 +212,7 @@
       "name": "GuiltyThorn",
       "type": "tool",
       "sortid": 28,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "guilty_thorn"
     },
@@ -228,7 +228,7 @@
       "name": "KoboldShovel",
       "type": "tool",
       "sortid": 33,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "kobold_shovel"
     },
@@ -236,7 +236,7 @@
       "name": "MateChopper",
       "type": "tool",
       "sortid": 29,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "mate_chopper"
     },
@@ -244,7 +244,7 @@
       "name": "AnnealBlade",
       "type": "tool",
       "sortid": 28,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "anneal_blade"
     },
@@ -252,7 +252,7 @@
       "name": "ElucidatorRecipe",
       "type": "procedure",
       "sortid": 52,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "elucidator_recipe",
       "metadata": {
@@ -288,7 +288,7 @@
       "name": "SwordWorkbench",
       "type": "block",
       "sortid": 51,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "sword_workbench"
     },
@@ -296,7 +296,7 @@
       "name": "WindFleuret",
       "type": "tool",
       "sortid": 26,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "wind_fleuret"
     },
@@ -304,7 +304,7 @@
       "name": "TyrantDragon",
       "type": "tool",
       "sortid": 27,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "tyrant_dragon"
     },
@@ -329,8 +329,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.sao_mod.kobold_ore": "Kobold Ore",
       "item.sao_mod.kobold_ingot": "Kobold",
+      "block.sao_mod.kobold_ore": "Kobold Ore",
       "block.sao_mod.crystallite_block": "Block of Crystallite",
       "item.sao_mod.elucidator": "Elucidator",
       "item.sao_mod.lambent_light": "Lambent Light",
