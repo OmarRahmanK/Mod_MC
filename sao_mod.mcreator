@@ -33,252 +33,12 @@
       "registry_name": "lambent_light"
     },
     {
-      "name": "KoboldIngot",
-      "type": "item",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kobold_ingot"
-    },
-    {
-      "name": "KoboldOre",
-      "type": "block",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kobold_ore"
-    },
-    {
-      "name": "KoboldBlock",
-      "type": "block",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kobold_block"
-    },
-    {
-      "name": "KoboldOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kobold_ore_block_recipe"
-    },
-    {
-      "name": "KoboldBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kobold_block_ore_recipe"
-    },
-    {
-      "name": "KoboldOreSmelting",
-      "type": "recipe",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kobold_ore_smelting"
-    },
-    {
-      "name": "PlatinumIngot",
-      "type": "item",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "platinum_ingot"
-    },
-    {
-      "name": "PlatinumOre",
-      "type": "block",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "platinum_ore"
-    },
-    {
-      "name": "PlatinumBlock",
-      "type": "block",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "platinum_block"
-    },
-    {
-      "name": "PlatinumOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "platinum_ore_block_recipe"
-    },
-    {
-      "name": "PlatinumBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "platinum_block_ore_recipe"
-    },
-    {
-      "name": "PlatinumOreSmelting",
-      "type": "recipe",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "platinum_ore_smelting"
-    },
-    {
-      "name": "KoboldOreBlastSmelting",
-      "type": "recipe",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kobold_ore_blast_smelting"
-    },
-    {
-      "name": "PlatinumOreBlastSmelting",
-      "type": "recipe",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "platinum_ore_blast_smelting"
-    },
-    {
-      "name": "WindFleuret",
-      "type": "tool",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wind_fleuret"
-    },
-    {
-      "name": "TyrantDragon",
-      "type": "tool",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tyrant_dragon"
-    },
-    {
-      "name": "AnnealBlade",
-      "type": "tool",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "anneal_blade"
-    },
-    {
       "name": "Karakurenai",
       "type": "tool",
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "karakurenai"
-    },
-    {
-      "name": "LiberatorSword",
-      "type": "tool",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "liberator_sword"
-    },
-    {
-      "name": "KoboldPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kobold_pickaxe_recipe"
-    },
-    {
-      "name": "KoboldPickaxe",
-      "type": "tool",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kobold_pickaxe"
-    },
-    {
-      "name": "KoboldSword",
-      "type": "tool",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kobold_sword"
-    },
-    {
-      "name": "KoboldAxeRecipe",
-      "type": "recipe",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kobold_axe_recipe"
-    },
-    {
-      "name": "KoboldHoe",
-      "type": "tool",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kobold_hoe"
-    },
-    {
-      "name": "KoboldHoeRecipe",
-      "type": "recipe",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kobold_hoe_recipe"
-    },
-    {
-      "name": "GuiltyThorn",
-      "type": "tool",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "guilty_thorn"
-    },
-    {
-      "name": "KoboldSwordRecipe",
-      "type": "recipe",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kobold_sword_recipe"
-    },
-    {
-      "name": "KoboldShovel",
-      "type": "tool",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kobold_shovel"
-    },
-    {
-      "name": "MateChopper",
-      "type": "tool",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mate_chopper"
-    },
-    {
-      "name": "KoboldAxe",
-      "type": "tool",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kobold_axe"
-    },
-    {
-      "name": "KoboldShovelRecipe",
-      "type": "recipe",
-      "sortid": 38,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kobold_shovel_recipe"
     },
     {
       "name": "SwordArtInventory",
@@ -289,12 +49,28 @@
       "registry_name": "sword_art_inventory"
     },
     {
-      "name": "SwordWorkbench",
-      "type": "block",
-      "sortid": 51,
+      "name": "GuiltyThorn",
+      "type": "tool",
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sword_workbench"
+      "registry_name": "guilty_thorn"
+    },
+    {
+      "name": "MateChopper",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mate_chopper"
+    },
+    {
+      "name": "AnnealBlade",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anneal_blade"
     },
     {
       "name": "ElucidatorRecipe",
@@ -323,36 +99,60 @@
           }
         ]
       }
+    },
+    {
+      "name": "LiberatorSword",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liberator_sword"
+    },
+    {
+      "name": "SwordWorkbench",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_workbench"
+    },
+    {
+      "name": "WindFleuret",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wind_fleuret"
+    },
+    {
+      "name": "TyrantDragon",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tyrant_dragon"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.sao_mod.kobold_shovel": "Kobold Shovel",
-      "block.sao_mod.kobold_ore": "Kobold Ore",
-      "item.sao_mod.kobold_ingot": "Kobold",
-      "item.sao_mod.kobold_axe": "Kobold Axe",
-      "item.sao_mod.kobold_pickaxe": "Kobold Pickaxe",
-      "item.sao_mod.lambent_light": "Lambent Light",
-      "item.sao_mod.mate_chopper": "Mate Chopper",
-      "item.sao_mod.guilty_thorn": "Guilty Thorn",
-      "itemGroup.tabsword_art": "Sword Art",
-      "item.sao_mod.kobold_hoe": "Kobold Hoe",
-      "block.sao_mod.kobold_block": "Block of Kobold",
       "item.sao_mod.tyrant_dragon": "Tyrant Dragon",
       "item.sao_mod.karakurenai": "Karakurenai",
+      "block.sao_mod.crystallite_block": "Block of Crystallite",
       "item.sao_mod.liberator_sword": "Liberator Sword",
       "item.sao_mod.anneal_blade": "Anneal Blade",
       "item.sao_mod.elucidator": "Elucidator",
-      "item.sao_mod.kobold_sword": "Kobold Sword",
+      "item.sao_mod.lambent_light": "Lambent Light",
+      "item.sao_mod.mate_chopper": "Mate Chopper",
+      "item.sao_mod.guilty_thorn": "Guilty Thorn",
       "item.sao_mod.dark_repulser": "Dark Repulser",
-      "block.sao_mod.platinum_block": "Block of Platinum",
       "item.sao_mod.crystallite_ingot": "Crystallite",
-      "block.sao_mod.platinum_ore": "Platinum Ore",
+      "itemGroup.tabsword_art": "Sword Art",
+      "block.sao_mod.crystallite_ore": "Crystallite Ore",
       "item.sao_mod.wind_fleuret": "Wind Fleuret",
       "block.sao_mod.sword_workbench": "Sword Workbench",
-      "item.sao_mod.platinum_ingot": "Platinum"
+      "item.sao_mod.crystallite": "Crystallite"
     }
   },
   "foldersRoot": {
