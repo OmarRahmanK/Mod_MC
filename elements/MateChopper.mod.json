@@ -1,0 +1,30 @@
+{
+  "_fv": 25,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "mate_chopper",
+    "customModelName": "Normal",
+    "name": "Mate Chopper",
+    "specialInfo": [
+      "Mate Chopper is a powerful weapon owned by PoH",
+      "the founder of the guild \"Laughing Coffin\"."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SwordArt"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
